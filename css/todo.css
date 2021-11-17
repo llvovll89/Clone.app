@@ -53,3 +53,26 @@
     border-radius: 50%;
     background-color: black;
   }
+
+  @media (max-width: 576px) {
+    #todo-list {
+      color: white;
+      position: absolute;
+      width: 350px;
+      height: 30%;
+      overflow: auto;
+      bottom: 14%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #todo-form input {
+      width: 300px;
+      height: 30px;
+      border-bottom: 2px solid white;
+      font-size: 18px;
+    }
+    #todo-list li {
+      width: 300px;
+    }
+  }
