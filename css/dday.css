@@ -1,0 +1,36 @@
+.dday {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    padding-left: 5px;
+  }
+  .dday-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .dday-input input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 150px;
+  }
+  .dday-input input:focus {
+    outline: none;
+  }
+  .dday-input input::placeholder {
+    color: black;
+  }
+  .dday span {
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+  }

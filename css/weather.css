@@ -1,0 +1,108 @@
+#weather {
+    position: absolute;
+    width: 300px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    right: 50px;
+    top: 50px;
+  }
+  .weather-title {
+    color: white;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    backdrop-filter: saturate(180%) blur(20px);
+    text-shadow: 0px 0px 2px black;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .weather-title span {
+    display: block;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+  }
+  .weather-title span:nth-child(2) {
+    padding-left: 10px;
+    justify-content: flex-start;
+  }
+  @keyframes rotate {
+    0% {
+      transform: none;
+    }
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+  .weather-title img {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20%;
+  }
+  .loading {
+    z-index: 2;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate 1s ease-in-out infinite;
+  }
+  .detail {
+    cursor: pointer;
+    bottom: -10px;
+    z-index: 2;
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .weather-detail {
+    backdrop-filter: saturate(180%) blur(20px);
+    text-shadow: 0px 0px 2px black;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 300px;
+    height: 130px;
+    color: white;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .title-connect {
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .hide-detail {
+    cursor: pointer;
+    bottom: -10px;
+    z-index: 2;
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
