@@ -106,3 +106,8 @@
     align-items: center;
   }
   
+  @media (max-width: 576px) {
+    #weather {
+      display: none;
+    }
+  }
