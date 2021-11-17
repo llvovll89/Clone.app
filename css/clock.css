@@ -18,3 +18,8 @@
     text-shadow: 0px 0px 2px black;
   }
   
+  @media (max-width:576px) {
+    #clock h2 {
+      font-size: 75px;
+    }
+  }
