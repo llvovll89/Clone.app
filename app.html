@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomard Corder-Clone App</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="clock">
+        <h3>0000-00-00, XXX</h3>
+        <h2>00:00:00</h2>
+    </div>
+    <form class="hidden" id="login-form">
+    <input required maxlength="15" type="text" placeholder="What is your name?" />
+    <input type="submit" value="Log In">
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <form id="todo-form">
+        <input type="text" placeholder="Write a To Do and Press Enter" required />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="weather">
+        <div class="weather-title">
+          <img />
+          <span></span>
+          <span></span>
+          <div class="detail"><i class="fas fa-chevron-down"></i></div>
+          <div class="loading hidden"><i class="fas fa-redo"></i></div>
+        </div>
+        <div class="weather-detail">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <div class="hide-detail"><i class="fas fa-chevron-up"></i></div>
+        </div>
+      </div>
+    <div class="dday">
+        <form class="dday-input hidden">
+          <input type="date" value="2000-01-01" required />
+          <input type="text" placeholder="Set D-Day and Title" required />
+        </form>
+        <span class="hidden"></span>
+      </div>
+
+
+    <script src="./js/greetings.js"></script>
+    <script src="./js/clock.js"></script>
+    <script src="./js/quotes.js"></script>
+    <script src="./js/background.js"></script>
+    <script src="./js/todo.js"></script>
+    <script src="./js/weather.js"></script>
+    <script src="./js/dday.js"></script>
+</body>
+</html>
