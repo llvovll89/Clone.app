@@ -34,3 +34,9 @@
     color: white;
     text-shadow: 2px 2px 4px black;
   }
+
+  @media (max-width: 576px) {
+    .dday {
+      display: none;
+    }
+  }
