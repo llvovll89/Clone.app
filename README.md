@@ -1,2 +1,3 @@
-# Clone.app
-Nomardcoder.clone app
+노마드 코더 클론코딩 ver1
+
+첫번째 바닐라 자바스크립트 /
