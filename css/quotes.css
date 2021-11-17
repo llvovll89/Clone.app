@@ -15,3 +15,8 @@
     display: block;
   }
   
+  @media (max-width: 576px) {
+    #quote span {
+      display: none;
+    }
+  }
