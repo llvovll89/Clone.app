@@ -43,6 +43,6 @@ body {
 
 @media (max-width: 576px) {
   body {
-    height: 65vh;
+    height: 100vh;
   }
 }
